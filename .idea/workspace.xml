@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee63119a-d4c1-4ba7-819b-4c1440d4ed4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Project 1/web/css/mainSite.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project 1/web/css/mainSite.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 1/web/mainSite.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project 1/web/mainSite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,20 +12,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Project 1/web/mainSite.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="527">
+              <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Project 1/web/css/mainSite.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="221">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -135,18 +134,19 @@
       <workItem from="1549899719390" duration="3122000" />
       <workItem from="1549915521417" duration="1010000" />
       <workItem from="1549916937240" duration="769000" />
-      <workItem from="1549918471180" duration="5492000" />
+      <workItem from="1549918471180" duration="6701000" />
+      <workItem from="1549925808350" duration="16000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10393000" />
+    <option name="totallyTimeSpent" value="11618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26153848" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26639676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -191,17 +191,17 @@
     <entry file="file://$PROJECT_DIR$/Project 1/web/js/mainSite.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project 1/web/mainSite.html">
+    <entry file="file://$PROJECT_DIR$/Project 1/web/css/mainSite.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="221">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project 1/web/css/mainSite.css">
+    <entry file="file://$PROJECT_DIR$/Project 1/web/mainSite.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="527">
+          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
         </state>
       </provider>
     </entry>
