@@ -1,0 +1,15 @@
+.formStyle{
+    background-color: yellow;
+    border: 3px solid blue;
+    width: 350px;
+    margin: auto;
+}
+.labelStyle{
+    display: inline-block;
+    text-align: left;
+    padding-top: 4px;
+}
+.textBoxStyle{
+    margin-right: 20px;
+    float: right;
+}
