@@ -1,16 +1,33 @@
-function submit(){
-    var password = parseFloat(document.getElementById("pass1").value);
-    var rPassword = parseFloat(document.getElementById("pass2").value);
-    if(password === rPassword){
-        window.alert("The passwords do not match");
-        document.getElementById("pass1").focus();
-    }
+var $ = function(id){
+    return document.getElementById(id);
 }
 
-function calcAge(){
-    var dob = parseFloat(document.getElementById("dob").value);
+function submitForm(){
+    var fName = $("fName").value;
+    var lName = $("lName").value;
+    var dob = $("dob").value;
+    var email = $("email").value;
+    var password = $("pass1").value;
+    var rPassword = $("pass2").value;
+
+    if(password != rPassword){
+        alert("Make sure passwords match!");
+        $("pass1").focus();
+        return;
+    }
+
+    var age = calcAge(dob);
+
+    $("retText").innerHTML = fName + " " + lName + ", your age is " + age + " and your email is " + email;
+}
+
+function calcAge(dob){
     var today = new Date();
-    var year = today.getFullYear();
-    var month = today.getMonth();
-    var day = today.getDate();
+    var birthDate = new Date(dob);
+    var age = today.getFullYear() - birthDate.getFullYear();
+    var m = today.getMonth() - birthDate.getMonth();
+    if(m < 0 || (m === 0 && today.getDate() < birthDate.getDate())){
+        age--;
+    }
+    return age;
 }
