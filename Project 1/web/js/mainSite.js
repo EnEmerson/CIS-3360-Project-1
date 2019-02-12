@@ -2,7 +2,7 @@ var $ = function(id){
     return document.getElementById(id);
 }
 
-function submitForm(){
+function processForm(){
     var fName = $("fName").value;
     var lName = $("lName").value;
     var dob = $("dob").value;
@@ -22,12 +22,16 @@ function submitForm(){
 }
 
 function calcAge(dob){
-    var today = new Date();
-    var birthDate = new Date(dob);
-    var age = today.getFullYear() - birthDate.getFullYear();
-    var m = today.getMonth() - birthDate.getMonth();
-    if(m < 0 || (m === 0 && today.getDate() < birthDate.getDate())){
-        age--;
-    }
+    var today = new Date(); //sets today's date
+    var birthDate = new Date(dob); //sets the birthday given from the parameters
+    var age = today.getFullYear() - birthDate.getFullYear(); //subtracts today from the birthday for age
+    var m = today.getMonth() - birthDate.getMonth(); //subtracts the month for a more precise age
+
+        //based on the month, checks the specific date you were born and adjusts age accordingly
+        if(m < 0 || (m === 0 && today.getDate() < birthDate.getDate())){
+            age--;
+        }
+
+    //returns age in years
     return age;
 }
