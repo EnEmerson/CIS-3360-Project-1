@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Texas State Staff Application</title>
     <link rel="stylesheet" href="css/mainSite.css">
 </head>
 <body>
-        <form action="mainSite.html" method = "get" class = "formStyle">
+<div class = "formStyle">
+        <form action="mainSite.html" method = "get">
 
             <label class = "labelStyle">First Name:</label>
             <input type="text" id = "fName" name = "fName" class = "textBoxStyle">
@@ -17,24 +18,26 @@
             <br>
 
             <label class = "labelStyle">Date of Birth:</label>
-            <input type="text" id = "dob" name = "dob" class = "textBoxStyle">
+            <input type="date" id = "dob" name = "dob" class = "textBoxStyle">
             <br>
 
             <label class = "labelStyle">Email:</label>
-            <input type="text" id = "email" name = "email" class = "textBoxStyle">
+            <input type="email" id = "email" name = "email" class = "textBoxStyle">
             <br>
 
             <label class = "labelStyle">Password:</label>
-            <input type="text" id = "pass1" name = "pass1" class = "textBoxStyle">
+            <input type="password" id = "pass1" name = "pass1" class = "textBoxStyle">
             <br>
 
             <label class = "labelStyle">Retype Password:</label>
-            <input type="text" id = "pass2" name = "pass2" class = "textBoxStyle">
+            <input type="password" id = "pass2" name = "pass2" class = "textBoxStyle">
             <br>
 
-            <button>Submit</button>
-            <button>Clear</button>
         </form>
+
+        <button>Submit</button>
+        <button>Clear</button>
+</div>
 
 <p id = "retText" class = "paragraphStyle">Howdy</p>
 
